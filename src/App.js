@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import UnderConstruction from "./pages/UnderConstruction";
+import Bookings from "./pages/Bookings";
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path={'/'} element={<Home />} />
-          {/* <Route 
+          <Route 
             path={'/about'} 
             element={<UnderConstruction />} 
           />
@@ -17,7 +19,7 @@ function App() {
             path={'/menu'} 
             element={<UnderConstruction />} 
           />
-          <Route path={'/bookings'} element={<Bookings />} /> */}
+          <Route path={'/bookings'} element={<Bookings />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
