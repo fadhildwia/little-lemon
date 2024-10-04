@@ -1,13 +1,13 @@
 import chefsMarioAndAdrianAImage from '../../assets/images/chefs-mario-and-adrian_a.jpg';
 import chefsMarioAndAdrianBImage from '../../assets/images/chefs-mario-and-adrian_b.jpg';
-import './OurStory.css';
+import './index.css';
 
 const OurStory = () => {
   return (
     <section className="container grid our-story">
       <div className="our-story-description">
         <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
+        <h2>Indonesian</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
           eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -25,8 +25,8 @@ const OurStory = () => {
         </p>
       </div>
       <div className="our-story-chefs">
-        <img src={chefsMarioAndAdrianAImage} alt="Chefs Mario and Adrian" />
-        <img src={chefsMarioAndAdrianBImage} alt="Chefs Mario and Adrian" />
+        <img src={chefsMarioAndAdrianAImage} alt="Chefs Andrian and Sori" />
+        <img src={chefsMarioAndAdrianBImage} alt="Chefs Andrian and Sori" />
       </div>
     </section>
   );

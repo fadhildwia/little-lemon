@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import logoImage from "../../assets/images/logo.png"
-import "./Header.css"
+import "./index.css"
 
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false)

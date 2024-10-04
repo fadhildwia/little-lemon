@@ -3,7 +3,7 @@ import {
   faStarHalfStroke
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './TestimonialCard.css';
+import './index.css';
 
 const ratingLevels = { '0.5': faStarHalfStroke, '1': faStar, };
 
